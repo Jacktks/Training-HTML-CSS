@@ -49,6 +49,9 @@
 
 .top-nav__social-list > li {
     margin-left: 1.5rem;
+    
+    font-family: Roboto;
+    font-style: normal;
 }
 
 
@@ -118,7 +121,7 @@
     position: absolute;
     width: 555px;
     height: 24px;
-    left: 485px;
+    left: 550px;
     top: 305px;
 
     font-family: Roboto;
@@ -170,7 +173,7 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 625px;
+    left: 635px;
     top: 472px;
 }
 
@@ -178,7 +181,478 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 710px;
+    left: 720px;
     top: 472px;
+
+}
+
+/* section-our-team */
+
+.our-team{
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    left: 0px;
+    top: 926px;
+
+    background: #FFFFFF;
+}
+
+.our-team__content {
+    position: absolute;
+    height: 48px;
+    left: 574px;
+    top: 54px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 48px;
+    /* identical to box height, or 109% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0363636em;
+
+    color: #4B4B4B;
+}
+
+/* People-1 */
+.our-team__image1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 87px;
+    top: 155px;
+
+}
+
+.our-team__name1 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 184px;
+    top: 159px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__position1 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 184px;
+    top: 183px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__description1 {
+    position: absolute;
+    width: 261px;
+    height: 72px;
+    left: 184px;
+    top: 223px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+
+/* People-2 */
+
+.our-team__image2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 87px;
+    top: 369px;
+}
+
+.our-team__name2 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 184px;
+    top: 375px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__position2{
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 184px;
+    top: 399px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+.our-team__description2 {
+    position: absolute;
+    width: 264px;
+    height: 48px;
+    left: 184px;
+    top: 439px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+/* People-3 */
+
+.our-team__image3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 477px;
+    top: 155px;
+
+}
+
+.our-team__name3 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 574px;
+    top: 159px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+/* 65px */
+
+.our-team__position3 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 574px;
+    top: 183px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__description3 {
+        
+    position: absolute;
+    width: 263px;
+    height: 48px;
+    left: 574px;
+    top: 223px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+/* People-4 */
+
+.our-team__image4{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 477px;
+    top: 371px;
+}
+
+.our-team__name4 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 574px;
+    top: 375px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__position4{
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 574px;
+    top: 399px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__description4{
+    
+    position: absolute;
+    width: 264px;
+    height: 48px;
+    left: 574px;
+    top: 439px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+    }
+
+
+/* People-5 */
+
+.our-team__image5 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 866px;
+    top: 155px;
+}
+
+.our-team__name5 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 964px;
+    top: 159px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+.our-team__position5 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 964px;
+    top: 183px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+.our-team__description5 {
+    position: absolute;
+    width: 263px;
+    height: 24px;
+    left: 964px;
+    top: 223px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+/* Pepple-6 */
+
+.our-team__image6 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 866px;
+    top: 371px;
+}
+
+.our-team__name6 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 964px;
+    top: 376px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__position6 {
+    position: absolute;
+    width: 213px;
+    height: 26px;
+    left: 964px;
+    top: 400px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+
+}
+
+.our-team__description6 {
+    position: absolute;
+    width: 264px;
+    height: 48px;
+    left: 964px;
+    top: 439px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
 
 }
