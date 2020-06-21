@@ -4,6 +4,12 @@
     
 } 
 
+.body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
 /* Section-top-nav */
 
 .top-nav {
@@ -24,8 +30,7 @@
     top: 55px;
 
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+
     font-size: 36px;
     line-height: 42px;
     /* identical to box height */
@@ -124,9 +129,6 @@
     left: 550px;
     top: 305px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
 
@@ -204,9 +206,6 @@
     left: 574px;
     top: 54px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 44px;
     line-height: 48px;
     /* identical to box height, or 109% */
@@ -236,9 +235,6 @@
     left: 184px;
     top: 159px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -257,9 +253,6 @@
     left: 184px;
     top: 183px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -278,9 +271,6 @@
     left: 184px;
     top: 223px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -310,9 +300,6 @@
     left: 184px;
     top: 375px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -331,9 +318,6 @@
     left: 184px;
     top: 399px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -351,9 +335,6 @@
     left: 184px;
     top: 439px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -382,9 +363,6 @@
     left: 574px;
     top: 159px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -404,9 +382,6 @@
     left: 574px;
     top: 183px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -426,9 +401,6 @@
     left: 574px;
     top: 223px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -457,9 +429,6 @@
     left: 574px;
     top: 375px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -478,9 +447,6 @@
     left: 574px;
     top: 399px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -500,9 +466,6 @@
     left: 574px;
     top: 439px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -531,9 +494,6 @@
     left: 964px;
     top: 159px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -551,9 +511,6 @@
     left: 964px;
     top: 183px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -571,9 +528,6 @@
     left: 964px;
     top: 223px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height, or 150% */
@@ -601,9 +555,6 @@
     left: 964px;
     top: 376px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height, or 144% */
@@ -622,9 +573,6 @@
     left: 964px;
     top: 400px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
@@ -643,9 +591,6 @@
     left: 964px;
     top: 439px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -655,4 +600,288 @@
 
     color: #4B4B4B;
 
+}
+
+
+/*Section-product-purchase*/
+
+.product-purchase{
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    left: 0px;
+    top: 1516px;
+
+    background: #4b4b4b;
+}
+
+
+.product-purchase__title{
+    position: absolute;
+    width: 386px;
+    height: 48px;
+    left: 425px;
+    top: 68px;
+
+    font-size: 44px;
+    line-height: 48px;
+    /* identical to box height, or 109% */
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.0363636em;
+
+    color: #FFFFFF;
+}
+
+.product-purchase__form1{
+    position: absolute;
+    width: 360px;
+    height: 396px;
+    left: 53px;
+    top: 168px;
+
+    background: linear-gradient(226.82deg, rgba(255, 255, 255, 0.3) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
+    background-blend-mode: soft-light;
+    border-radius: 8px;
+}
+
+.product-purchase__form2{
+    position: absolute;
+    width: 360px;
+    height: 396px;
+    left: 446px;
+    top: 168px;
+
+    background: linear-gradient(227.73deg, #EBCB80 0%, #EBCB80 100%);
+    background-blend-mode: soft-light;
+    border-radius: 8px;
+}
+
+.product-purchase__form3 {
+    position: absolute;
+    width: 360px;
+    height: 396px;
+    left: 840px;
+    top: 168px;
+
+    background: linear-gradient(226.22deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+    background-blend-mode: multiply;
+    border-radius: 8px;
+}
+
+.product-purchase__form1__name , .product-purchase__form3__name , .product-purchase__form2__name{
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 107px;
+    top: 40px;
+
+    font-family: Lucida Grande;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.0555556em;
+}
+.product-purchase__form1__name , .product-purchase__form3__name {
+    color: #EBCB80
+}
+
+.product-purchase__form2__name{
+    color: #4B4B4B;
+}
+
+.product-purchase__form__price{
+    position: absolute;
+    width: 134px;
+    height: 48px;
+    left: 89px;
+    top: 97px;
+
+}
+
+.product-purchase__form__price__number{
+    
+    position: absolute;
+    width: 85px;
+    height: 48px;
+    left: 49px;
+    top: 0px;
+
+    font-size: 64px;
+    line-height: 48px;
+    /* identical to box height, or 75% */
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.0363636em;
+
+    color: #FFFFFF;
+}
+
+.product-purchase__form__price__usd {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: 36px;
+    top: 1px;
+
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.product-purchase__form__year {
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 107px;
+    top: 160px;
+
+
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.0555556em;
+
+    color: #FFFFFF;
+}
+
+.product-purchase__form__price3 {
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 71px;
+    top: 97px;
+}
+
+.product-purchase__form__price__number3{
+    position: absolute;
+    width: 114px;
+    height: 48px;
+    left: 53px;
+    top:0px;
+
+    font-size: 64px;
+    line-height: 48px;
+    /* identical to box height, or 75% */
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.0363636em;
+
+    color: #FFFFFF;
+}
+
+.product-purchase__form__price__usd3 {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: 5px;
+    top: 1px;
+
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+}
+
+.product-purchase__form1__info1, 
+.product-purchase__form1__info2, 
+.product-purchase__form1__info3 , 
+.product-purchase__form2__info1 , 
+.product-purchase__form2__info2 , 
+.product-purchase__form2__info3,
+.product-purchase__form3__info1,
+.product-purchase__form3__info2,
+.product-purchase__form3__info3  {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    left: 65px;
+
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-purchase__form1__info1 , .product-purchase__form2__info1 , .product-purchase__form3__info1{
+    top: 210px;
+}
+
+.product-purchase__form1__info2 , .product-purchase__form2__info2 , .product-purchase__form3__info2{
+    top: 234px;
+}
+
+.product-purchase__form1__info3 , .product-purchase__form2__info3 ,.product-purchase__form3__info3{
+    top: 258px;
+}
+
+.product-purchase__form1__info1 , .product-purchase__form1__info2 , .product-purchase__form1__info3 {
+    color: #ffffff;
+}
+.product-purchase__form2__info1 , .product-purchase__form2__info2 , .product-purchase__form2__info3 {
+    color: #4B4B4B;
+}
+.product-purchase__form3__info1 , .product-purchase__form3__info2 , .product-purchase__form3__info3 {
+    color: #FFFFFF;
+}
+
+
+.product-purchase__form1__button , .product-purchase__form2__button , .product-purchase__form3__button {
+    position: absolute;
+    width: 198px;
+    height: 48px;
+    left: 83px;
+    top: 312px;
+
+    border-radius: 50px;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.product-purchase__form1__button , .product-purchase__form3__button {
+    background: #EBCB80;
+}
+
+.product-purchase__form2__button {
+    background: #4B4B4B;
+}
+
+.product-purchase__form2__button__purchase{
+    color: #FFFFFF;
+
+}
+
+.product-purchase__form1__button__purchase ,  .product-purchase__form2__button__purchase , .product-purchase__form3__button__purchase{
+    transition: all 0.5s ease-in;
+}
+
+.product-purchase__form1__button__purchase:hover ,  
+.product-purchase__form2__button__purchase:hover , 
+.product-purchase__form3__button__purchase:hover {
+    color: red;
 }
