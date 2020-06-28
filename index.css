@@ -8,6 +8,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 /* Section-top-nav */
@@ -884,4 +885,132 @@
 .product-purchase__form2__button__purchase:hover , 
 .product-purchase__form3__button__purchase:hover {
     color: red;
+}
+
+/*Section-slide*/
+.section-slider {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 2197px;
+
+
+    overflow: hidden;
+}
+
+.section-slider .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+	background-position: center;
+    z-index: 1;
+    display: none;
+    padding:0 15px;
+    animation: slide 2s ease;
+}
+.section-slider .slide.active {
+    display: flex;
+}
+
+@keyframes slide{
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container-item {
+    margin-top: 100px;
+    width: 100%;
+    left: 600px;
+
+    align-items: flex-end;
+    text-align: center;
+    
+}
+
+.section-slider .container-item{
+    flex-grow: 1;
+}
+
+.content__name {
+    
+
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 32px;
+    margin-bottom: 23px;
+    color: #4B4B4B;
+} 
+
+.content__title {
+    position: absolute;
+    width: 555px;
+    left: 350px;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #4B4B4B;
+} 
+
+.section-slider .controls .prev {
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 200px;
+    
+    height: 40px;
+    width: 55px;
+    cursor: pointer;
+    
+    background-image: url(./image/btnNext.svg);
+
+    transition: all 0.5s ease;
+}
+
+.section-slider .controls .next {
+    background-image: url(./image/btnPrev.svg);
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 1000px;
+    height: 40px;
+    width: 55px;
+    cursor: pointer;
+
+    transition: all 0.5s ease;
+}
+
+
+.section-slider .indicator {
+    position: absolute;
+    left: 550px;
+    bottom: 83px;
+    z-index: 2;
+}
+
+.section-slider .indicator div {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 16px;
+
+    border: 2px solid #4B4B4B;
+    box-sizing: border-box;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.section-slider .indicator div.active {
+    background-color: #4B4B4B;
 }
