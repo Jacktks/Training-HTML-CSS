@@ -1,4 +1,4 @@
-* {
+** {
     padding: 0px;
     margin: 0px;
     
@@ -861,7 +861,6 @@
     border-radius: 50px;
     border: 2px;
     box-sizing: border-box;
-    border-radius: 50px;
 }
 
 .product-purchase__form1__button , .product-purchase__form3__button {
@@ -1013,4 +1012,157 @@
 
 .section-slider .indicator div.active {
     background-color: #4B4B4B;
+}
+
+/*Section-facts*/
+
+.section-facts {
+    position: absolute;
+    width: 1263px;
+    height: 680px;
+    left: 0px;
+    top: 2797px;
+
+    background: #4B4B4B;
+}
+
+.section-facts__title {
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    left: 532.5px;
+    top: 44px;
+
+    font-size: 44px;
+    line-height: 48px;
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.0363636em;
+
+    color: #FFFFFF;
+}
+
+.section-facts__qoute {
+    
+    position: absolute;
+    width: 430px;
+    height: 48px;
+    left: 426px;
+    top: 112px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.section-facts__overlay {
+    position: absolute;
+    width: 360px;
+    height: 401px;
+    top: 193px;
+
+    background: linear-gradient(226.22deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+    background-blend-mode: multiply;
+    border-radius: 8px;
+}
+.section-facts__overlay1 {
+    left: 56px;
+}
+
+.section-facts__overlay2 {
+    left: 451px;
+ 
+}
+
+.section-facts__overlay3 {
+    left: 841px;
+ 
+}
+
+.section-facts__overlay__name {
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 107px;
+    top: 40px;
+
+    font-family: Lucida Grande;
+    font-size: 18px;
+    line-height: 27px;
+
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.0555556em;
+
+    color: #EBCB80;
+}
+
+.section-facts__overlay__icon{
+    position: absolute;
+    left: 144px;
+    top: 92px;
+}
+
+.section-facts__overlay__icon3{
+    position: absolute;
+    left: 152px;
+    top: 92px;
+}
+
+.section-facts__overlay__product {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    left: 65px;
+    top: 184px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.0625em;
+
+    color: #FFFFFF;
+}
+
+.section-facts__overlay__info {
+    position: absolute;
+    width: 230px;
+    height: 72px;
+    left: 65px;
+    top: 212px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.section-facts__overlay__btn {
+    position: absolute;
+    width: 198px;
+    height: 48px;
+    left: 83px;
+    top: 312px;
+
+    background: #EBCB80;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+}
+
+.section-facts__overlay__btn:hover {
+    color: red;
 }
