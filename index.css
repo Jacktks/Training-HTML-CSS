@@ -96,6 +96,7 @@
     height: 768px;
     left: 0px;
     top: 156px;
+    
 
     background: #EBCB80;
     mix-blend-mode: color;
@@ -931,7 +932,7 @@
     width: 100%;
     left: 600px;
 
-    align-items: flex-end;
+    align-items: center;
     text-align: center;
     
 }
@@ -950,15 +951,13 @@
     color: #4B4B4B;
 } 
 
+
+
 .content__title {
-    position: absolute;
-    width: 555px;
-    left: 350px;
+    /* width: 555px; */
     font-size: 14px;
     line-height: 24px;
-    align-items: flex-end;
-    text-align: center;
-
+    
     color: #4B4B4B;
 } 
 
@@ -993,7 +992,7 @@
 
 .section-slider .indicator {
     position: absolute;
-    left: 550px;
+    left: 35em;
     bottom: 83px;
     z-index: 2;
 }
@@ -1018,12 +1017,16 @@
 
 .section-facts {
     position: absolute;
-    width: 1263px;
+    width: 100%;
     height: 680px;
     left: 0px;
     top: 2797px;
 
     background: #4B4B4B;
+}
+
+.section-facts__group {
+    display: flex;
 }
 
 .section-facts__title {
@@ -1166,3 +1169,79 @@
 .section-facts__overlay__btn:hover {
     color: red;
 }
+
+
+/*Section-places*/
+
+.section-places {
+    position: absolute;
+    width: 100%;
+    height: 888px;
+    left: 0px;
+    top: 3477px;
+
+    background: #F3F3F3;
+}
+
+.section-places__title {
+    
+    position: absolute;
+    width: 294px;
+    height: 48px;
+    left: 500px;
+    top: 67px;
+
+    font-size: 44px;
+    line-height: 48px;
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.0363636em;
+
+    color: #4B4B4B;
+}
+
+
+.section-places__names{
+
+    position: absolute;
+    /* width: 141px;
+    height: 27px; */
+    left: 205px;
+    top: 135px;
+
+    font-size: 18px;
+    line-height: 27px;
+
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0.0555556em;
+
+    color: #4B4B4B;
+
+    list-style: none;
+    cursor: pointer;
+}
+
+.section-places__names > li {
+    margin-left: 55px;
+}
+
+.section-places__image {
+    position: absolute;
+    left: 90px;
+    height: 150px;
+    top: 191px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-places__image > img {
+    width: 300px;
+    text-align: center;
+    line-height: 75px;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+
