@@ -92,3 +92,5 @@ let index = 0;
 
     let timer = setInterval(autoPlay, 3000);
     
+
+   

@@ -1245,3 +1245,116 @@
     margin-top: 24px;
 }
 
+
+/*Section-signup*/
+
+.section-signup {
+    position: absolute;
+    width: 100%;
+    height: 588px;
+    top: 4365px;
+
+    background: url(./image/bgsignup.svg);
+    background-blend-mode: multiply, normal;
+}
+.section-signup__create__title {
+
+    font-size: 44px;
+    line-height: 48px;
+    margin-top: 72px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.section-signup__create__form {
+    width: 360px;
+    height: 384px;
+    padding: 0px 52px;
+
+    background: #4B4B4B;
+    background-blend-mode: multiply;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.section-signup__create__form__signup {
+    margin: 28px 29px;
+
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+    color: #EBCB80;
+}
+
+.section-signup__create__form__input {
+    position: relative;
+    margin: 25px 0;
+}
+.section-signup__create__form__input input {
+    width: 256px;
+    height: 36px;
+
+    padding: 0 5px;
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+}
+
+.section-signup__create__form__input span::before {
+
+    content: attr(data-placeholder);
+    position: absolute;
+    padding: 5px 0;
+    left: 15px;
+    color: #adadad;
+    transform: translateY(-10%);
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.section-signup__create__form__already{
+    margin-bottom:  27px;
+    margin-left: 29px;
+}
+
+.section-signup__create__form__already a{
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #EBCB80;
+    text-decoration-line: underline;
+    color: #EBCB80;
+}
+
+.section-signup__create__form__btn{
+    width: 198px;
+    height: 48px;
+
+    margin-left: 28px;
+
+    text-align: center;
+    background: #EBCB80;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+}
+
+.section-signup__create__form__btn:hover {
+    color: red;
+}
