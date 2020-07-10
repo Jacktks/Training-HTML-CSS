@@ -1358,3 +1358,284 @@
 .section-signup__create__form__btn:hover {
     color: red;
 }
+
+/*section-contact*/
+
+.section-contact {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 4954px;
+
+    background: #FFFFFF;
+}
+
+.contact__title {
+
+    font-size: 44px;
+    line-height: 48px;
+    
+    margin-top: 44px;
+    text-align: center;
+    letter-spacing: -0.0363636em;
+
+    color: #4B4B4B;
+
+}
+
+.contact__info {
+
+    margin-top: 65px;
+
+    display: flex;
+}
+
+.contact__info__git {
+    flex: 1;
+}
+
+.contact__info__form {
+    flex: 2;
+}
+
+.contact__info__credit{
+
+    flex: 1;
+}
+
+@media screen and (max-width: 768px){
+    .contact__info{
+        flex-direction: column;
+    }
+    .contact__info__git__address {
+        display: flex;
+    }
+    .contact__info__form{
+        width: 229px;
+        height: 183px;
+    }
+    .contact__info__credit__social {
+        display: flex;
+    }
+}
+
+.contact__info__git__title{
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: 0.0555556em;
+
+    color: #4B4B4B;
+}
+
+.contact__info__git__address{
+    width: 234px;
+    height: 48px;
+    margin-top: 22px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+
+    color: #4B4B4B;
+}
+
+.contact__info__git__address > img {
+   margin: 0px 12px 20px 5px;
+}
+
+.contact__info__git__email {
+    width: 173px;
+    height: 24px;
+    margin: 24px 0px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+.contact__info__git__email > img {
+    margin-top: 2px;
+    margin-right: 9px;
+}
+
+.contact__info__git__phone {
+    width: 133px;
+    height: 24px;
+    margin-left: 3px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+.contact__info__git__phone > img {
+    margin-right: 12px;
+}
+.contact__info__git__phone > div {
+    margin-top: 40px;
+}
+
+.contact__info__form {
+    /* position: absolute; */
+    width: 229px;
+    height: 414px;
+
+
+    background: #FFFFFF;
+    border: 2.13333px solid #E6E6E6;
+
+    text-align: center;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+
+.contact__info__form__ne {
+     display: flex;
+     color: #4B4B4B;
+}
+
+
+
+.contact__info__form__ne__name {
+    margin-right: 12px;
+    padding-left: 60px;
+    padding-top: 39px;
+    padding-bottom: 16px;
+}
+
+.contact__info__form__ms {
+    margin-right: 215px;
+}
+.contact__info__form__email {
+    padding-top: 39px;
+}
+.contact__info__form__name__info {
+    padding-bottom: 17px;
+}
+
+.contact__info__form_btn {
+    width: 204px;
+    height: 36px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.contact__info__form__name__info{
+    margin-right: 155px;
+    left: 0px;
+}
+
+.contact__info__form__ms input {
+    margin-left: 60px;
+    margin-bottom: 24px;
+    width: 420px;
+    height: 120px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.contact__info__form__btn {
+    
+    width: 210px;
+    height: 48px;
+
+
+    background: #EBCB80;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+    
+}
+
+.contact__info__form__btn:hover {
+    color: red;
+    background-color: #4B4B4B;
+}
+
+
+.contact__info__credit {
+    margin-left: 39px;
+}
+
+.contact__info__credit__title {
+        
+    width: 263px;
+    height: 30px;
+
+    font-size: 18px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0555556em;
+
+    color: #4B4B4B;
+
+}
+
+.contact__info__credit__qoute {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #4B4B4B;
+}
+
+.contact__info__credit__follow {
+    width: 263px;
+    height: 30px;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+
+    align-items: center;
+    letter-spacing: 0.0555556em;
+
+    color: #4B4B4B;
+}
+
+.contact__info__credit__social {
+    display: flex;
+
+    width: 154px;
+    height: 40px;
+    justify-content: space-around;
+    list-style: none;
+}
+.contact__info__credit__social li {
+    width: 35px;
+    height: 40px;
+    margin-right: 35.75px;
+}
+.contact__info__credit__socials2 {
+    margin-bottom: 40px;
+    padding-right: 5px;
+}
